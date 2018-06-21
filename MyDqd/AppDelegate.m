@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Bugly/Bugly.h>
+#import "DQTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [Bugly startWithAppId:kBuglyAppID];
+    
+    
+    DQTabBarVC *tabBarVC = [[DQTabBarVC alloc] init];
+    self.window.rootViewController = tabBarVC;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

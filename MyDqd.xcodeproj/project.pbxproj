@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D69C7419FEF26C25FEF2535 /* Pods_MyDqd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440273FEDBF284B2351ACFE0 /* Pods_MyDqd.framework */; };
 		A1753EB720DA5798004A66E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EB620DA5798004A66E9 /* AppDelegate.m */; };
 		A1753EBA20DA5798004A66E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EB920DA5798004A66E9 /* ViewController.m */; };
 		A1753EBD20DA5798004A66E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1753EBB20DA5798004A66E9 /* Main.storyboard */; };
@@ -14,9 +15,62 @@
 		A1753EC220DA5798004A66E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1753EC120DA5798004A66E9 /* Assets.xcassets */; };
 		A1753EC520DA5798004A66E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1753EC320DA5798004A66E9 /* LaunchScreen.storyboard */; };
 		A1753EC820DA5798004A66E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EC720DA5798004A66E9 /* main.m */; };
+		A1753EDC20DA5DA6004A66E9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1753EDB20DA5DA6004A66E9 /* NotificationCenter.framework */; };
+		A1753EE020DA5DA6004A66E9 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EDF20DA5DA6004A66E9 /* TodayViewController.m */; };
+		A1753EE320DA5DA6004A66E9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1753EE120DA5DA6004A66E9 /* MainInterface.storyboard */; };
+		A1753EE720DA5DA6004A66E9 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1753EDA20DA5DA6004A66E9 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1753F0A20DA5FAF004A66E9 /* MBProgressHUD+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EEE20DA5FAB004A66E9 /* MBProgressHUD+HAdd.m */; };
+		A1753F0B20DA5FAF004A66E9 /* UIView+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EF220DA5FAC004A66E9 /* UIView+HAdd.m */; };
+		A1753F0C20DA5FAF004A66E9 /* NSObject+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EF320DA5FAC004A66E9 /* NSObject+HAdd.m */; };
+		A1753F0D20DA5FAF004A66E9 /* UILabel+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EF420DA5FAC004A66E9 /* UILabel+HAdd.m */; };
+		A1753F0E20DA5FAF004A66E9 /* UINavigationController+HA.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EF620DA5FAD004A66E9 /* UINavigationController+HA.m */; };
+		A1753F0F20DA5FAF004A66E9 /* UIImage+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EF820DA5FAD004A66E9 /* UIImage+HAdd.m */; };
+		A1753F1020DA5FAF004A66E9 /* UIImageView+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EFA20DA5FAD004A66E9 /* UIImageView+HAdd.m */; };
+		A1753F1120DA5FAF004A66E9 /* UIAlertController+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EFC20DA5FAD004A66E9 /* UIAlertController+HAdd.m */; };
+		A1753F1220DA5FAF004A66E9 /* UIButton+Hadd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EFD20DA5FAE004A66E9 /* UIButton+Hadd.m */; };
+		A1753F1320DA5FAF004A66E9 /* UIViewController+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753EFF20DA5FAE004A66E9 /* UIViewController+HAdd.m */; };
+		A1753F1420DA5FAF004A66E9 /* UITableView+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F0020DA5FAE004A66E9 /* UITableView+HAdd.m */; };
+		A1753F1520DA5FAF004A66E9 /* UIColor+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F0120DA5FAE004A66E9 /* UIColor+HAdd.m */; };
+		A1753F1620DA5FAF004A66E9 /* NSDate+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F0320DA5FAE004A66E9 /* NSDate+HAdd.m */; };
+		A1753F1720DA5FAF004A66E9 /* NSString+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F0720DA5FAF004A66E9 /* NSString+HAdd.m */; };
+		A1753F1820DA5FAF004A66E9 /* UITextField+HAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F0920DA5FAF004A66E9 /* UITextField+HAdd.m */; };
+		A1753F1C20DA649B004A66E9 /* DQTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F1B20DA649B004A66E9 /* DQTabBarVC.m */; };
+		A1753F1F20DA657A004A66E9 /* DQBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F1E20DA657A004A66E9 /* DQBaseVC.m */; };
+		A1753F2220DA659D004A66E9 /* DQBaseNaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F2120DA659D004A66E9 /* DQBaseNaviVC.m */; };
+		A1753F2820DA660A004A66E9 /* DQHomeContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F2720DA660A004A66E9 /* DQHomeContainerVC.m */; };
+		A1753F3320DA6877004A66E9 /* DQDataContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F3220DA6877004A66E9 /* DQDataContainerVC.m */; };
+		A1753F3620DA6886004A66E9 /* DQBBSContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F3520DA6886004A66E9 /* DQBBSContainerVC.m */; };
+		A1753F3920DA6896004A66E9 /* DQCenterLoveContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F3820DA6896004A66E9 /* DQCenterLoveContainerVC.m */; };
+		A1753F3C20DA68A8004A66E9 /* DQMatchContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A1753F3B20DA68A8004A66E9 /* DQMatchContainerVC.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A1753EE520DA5DA6004A66E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1753EAA20DA5798004A66E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1753ED920DA5DA6004A66E9;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1753EEB20DA5DA6004A66E9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1753EE720DA5DA6004A66E9 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3140C8D435C069E245E483C2 /* Pods-MyDqd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDqd.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDqd/Pods-MyDqd.release.xcconfig"; sourceTree = "<group>"; };
+		440273FEDBF284B2351ACFE0 /* Pods_MyDqd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDqd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1753EB220DA5798004A66E9 /* MyDqd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDqd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1753EB520DA5798004A66E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1753EB620DA5798004A66E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +82,61 @@
 		A1753EC420DA5798004A66E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1753EC620DA5798004A66E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1753EC720DA5798004A66E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1753ECE20DA5B8C004A66E9 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		A1753ED420DA5C55004A66E9 /* DQHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQHeader.h; sourceTree = "<group>"; };
+		A1753EDA20DA5DA6004A66E9 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1753EDB20DA5DA6004A66E9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A1753EDE20DA5DA6004A66E9 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		A1753EDF20DA5DA6004A66E9 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		A1753EE220DA5DA6004A66E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A1753EE420DA5DA6004A66E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1753EEC20DA5FAB004A66E9 /* UIViewController+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HAdd.h"; sourceTree = "<group>"; };
+		A1753EED20DA5FAB004A66E9 /* MBProgressHUD+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HAdd.h"; sourceTree = "<group>"; };
+		A1753EEE20DA5FAB004A66E9 /* MBProgressHUD+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HAdd.m"; sourceTree = "<group>"; };
+		A1753EEF20DA5FAC004A66E9 /* UIImageView+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HAdd.h"; sourceTree = "<group>"; };
+		A1753EF020DA5FAC004A66E9 /* NSObject+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HAdd.h"; sourceTree = "<group>"; };
+		A1753EF120DA5FAC004A66E9 /* UIView+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HAdd.h"; sourceTree = "<group>"; };
+		A1753EF220DA5FAC004A66E9 /* UIView+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HAdd.m"; sourceTree = "<group>"; };
+		A1753EF320DA5FAC004A66E9 /* NSObject+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HAdd.m"; sourceTree = "<group>"; };
+		A1753EF420DA5FAC004A66E9 /* UILabel+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HAdd.m"; sourceTree = "<group>"; };
+		A1753EF520DA5FAD004A66E9 /* NSDate+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HAdd.h"; sourceTree = "<group>"; };
+		A1753EF620DA5FAD004A66E9 /* UINavigationController+HA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HA.m"; sourceTree = "<group>"; };
+		A1753EF720DA5FAD004A66E9 /* UIAlertController+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HAdd.h"; sourceTree = "<group>"; };
+		A1753EF820DA5FAD004A66E9 /* UIImage+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HAdd.m"; sourceTree = "<group>"; };
+		A1753EF920DA5FAD004A66E9 /* UITableView+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HAdd.h"; sourceTree = "<group>"; };
+		A1753EFA20DA5FAD004A66E9 /* UIImageView+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HAdd.m"; sourceTree = "<group>"; };
+		A1753EFB20DA5FAD004A66E9 /* UIButton+Hadd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Hadd.h"; sourceTree = "<group>"; };
+		A1753EFC20DA5FAD004A66E9 /* UIAlertController+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HAdd.m"; sourceTree = "<group>"; };
+		A1753EFD20DA5FAE004A66E9 /* UIButton+Hadd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Hadd.m"; sourceTree = "<group>"; };
+		A1753EFE20DA5FAE004A66E9 /* UILabel+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HAdd.h"; sourceTree = "<group>"; };
+		A1753EFF20DA5FAE004A66E9 /* UIViewController+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HAdd.m"; sourceTree = "<group>"; };
+		A1753F0020DA5FAE004A66E9 /* UITableView+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HAdd.m"; sourceTree = "<group>"; };
+		A1753F0120DA5FAE004A66E9 /* UIColor+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HAdd.m"; sourceTree = "<group>"; };
+		A1753F0220DA5FAE004A66E9 /* UITextField+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HAdd.h"; sourceTree = "<group>"; };
+		A1753F0320DA5FAE004A66E9 /* NSDate+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HAdd.m"; sourceTree = "<group>"; };
+		A1753F0420DA5FAE004A66E9 /* UIImage+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HAdd.h"; sourceTree = "<group>"; };
+		A1753F0520DA5FAF004A66E9 /* UIColor+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HAdd.h"; sourceTree = "<group>"; };
+		A1753F0620DA5FAF004A66E9 /* NSString+HAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HAdd.h"; sourceTree = "<group>"; };
+		A1753F0720DA5FAF004A66E9 /* NSString+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HAdd.m"; sourceTree = "<group>"; };
+		A1753F0820DA5FAF004A66E9 /* UINavigationController+HA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HA.h"; sourceTree = "<group>"; };
+		A1753F0920DA5FAF004A66E9 /* UITextField+HAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HAdd.m"; sourceTree = "<group>"; };
+		A1753F1A20DA649B004A66E9 /* DQTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQTabBarVC.h; sourceTree = "<group>"; };
+		A1753F1B20DA649B004A66E9 /* DQTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQTabBarVC.m; sourceTree = "<group>"; };
+		A1753F1D20DA657A004A66E9 /* DQBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQBaseVC.h; sourceTree = "<group>"; };
+		A1753F1E20DA657A004A66E9 /* DQBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQBaseVC.m; sourceTree = "<group>"; };
+		A1753F2020DA659D004A66E9 /* DQBaseNaviVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQBaseNaviVC.h; sourceTree = "<group>"; };
+		A1753F2120DA659D004A66E9 /* DQBaseNaviVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQBaseNaviVC.m; sourceTree = "<group>"; };
+		A1753F2620DA660A004A66E9 /* DQHomeContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQHomeContainerVC.h; sourceTree = "<group>"; };
+		A1753F2720DA660A004A66E9 /* DQHomeContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQHomeContainerVC.m; sourceTree = "<group>"; };
+		A1753F3120DA6877004A66E9 /* DQDataContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQDataContainerVC.h; sourceTree = "<group>"; };
+		A1753F3220DA6877004A66E9 /* DQDataContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQDataContainerVC.m; sourceTree = "<group>"; };
+		A1753F3420DA6886004A66E9 /* DQBBSContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQBBSContainerVC.h; sourceTree = "<group>"; };
+		A1753F3520DA6886004A66E9 /* DQBBSContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQBBSContainerVC.m; sourceTree = "<group>"; };
+		A1753F3720DA6896004A66E9 /* DQCenterLoveContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQCenterLoveContainerVC.h; sourceTree = "<group>"; };
+		A1753F3820DA6896004A66E9 /* DQCenterLoveContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCenterLoveContainerVC.m; sourceTree = "<group>"; };
+		A1753F3A20DA68A8004A66E9 /* DQMatchContainerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMatchContainerVC.h; sourceTree = "<group>"; };
+		A1753F3B20DA68A8004A66E9 /* DQMatchContainerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMatchContainerVC.m; sourceTree = "<group>"; };
+		F698BCD23909DC4CE1250704 /* Pods-MyDqd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDqd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDqd/Pods-MyDqd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +144,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D69C7419FEF26C25FEF2535 /* Pods_MyDqd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1753ED720DA5DA6004A66E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1753EDC20DA5DA6004A66E9 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				A1753EB420DA5798004A66E9 /* MyDqd */,
+				A1753EDD20DA5DA6004A66E9 /* Extension */,
 				A1753EB320DA5798004A66E9 /* Products */,
+				F13D855783845CFD71CCC544 /* Pods */,
+				BEECDF47038CF008E49102E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				A1753EB220DA5798004A66E9 /* MyDqd.app */,
+				A1753EDA20DA5DA6004A66E9 /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +182,9 @@
 		A1753EB420DA5798004A66E9 /* MyDqd */ = {
 			isa = PBXGroup;
 			children = (
+				A1753ED120DA5BCA004A66E9 /* Common */,
+				A1753ED020DA5BBD004A66E9 /* Modules */,
+				A1753ECF20DA5BB0004A66E9 /* Network */,
 				A1753EB520DA5798004A66E9 /* AppDelegate.h */,
 				A1753EB620DA5798004A66E9 /* AppDelegate.m */,
 				A1753EB820DA5798004A66E9 /* ViewController.h */,
@@ -70,8 +195,218 @@
 				A1753EC620DA5798004A66E9 /* Info.plist */,
 				A1753EC720DA5798004A66E9 /* main.m */,
 				A1753EBE20DA5798004A66E9 /* MyDqd.xcdatamodeld */,
+				A1753ECE20DA5B8C004A66E9 /* Prefix.pch */,
 			);
 			path = MyDqd;
+			sourceTree = "<group>";
+		};
+		A1753ECF20DA5BB0004A66E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A1753ED020DA5BBD004A66E9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2F20DA684E004A66E9 /* Data */,
+				A1753F2D20DA6843004A66E9 /* BBS */,
+				A1753F2B20DA6835004A66E9 /* CenterLove */,
+				A1753F2920DA681E004A66E9 /* Match */,
+				A1753F2320DA65D3004A66E9 /* HomePage */,
+				A1753F1920DA6475004A66E9 /* MainTabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A1753ED120DA5BCA004A66E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A1753ED320DA5BE0004A66E9 /* BaseClass */,
+				A1753ED220DA5BD7004A66E9 /* Category */,
+				A1753ED420DA5C55004A66E9 /* DQHeader.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A1753ED220DA5BD7004A66E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A1753EED20DA5FAB004A66E9 /* MBProgressHUD+HAdd.h */,
+				A1753EEE20DA5FAB004A66E9 /* MBProgressHUD+HAdd.m */,
+				A1753EF520DA5FAD004A66E9 /* NSDate+HAdd.h */,
+				A1753F0320DA5FAE004A66E9 /* NSDate+HAdd.m */,
+				A1753EF020DA5FAC004A66E9 /* NSObject+HAdd.h */,
+				A1753EF320DA5FAC004A66E9 /* NSObject+HAdd.m */,
+				A1753F0620DA5FAF004A66E9 /* NSString+HAdd.h */,
+				A1753F0720DA5FAF004A66E9 /* NSString+HAdd.m */,
+				A1753EF720DA5FAD004A66E9 /* UIAlertController+HAdd.h */,
+				A1753EFC20DA5FAD004A66E9 /* UIAlertController+HAdd.m */,
+				A1753EFB20DA5FAD004A66E9 /* UIButton+Hadd.h */,
+				A1753EFD20DA5FAE004A66E9 /* UIButton+Hadd.m */,
+				A1753F0520DA5FAF004A66E9 /* UIColor+HAdd.h */,
+				A1753F0120DA5FAE004A66E9 /* UIColor+HAdd.m */,
+				A1753F0420DA5FAE004A66E9 /* UIImage+HAdd.h */,
+				A1753EF820DA5FAD004A66E9 /* UIImage+HAdd.m */,
+				A1753EEF20DA5FAC004A66E9 /* UIImageView+HAdd.h */,
+				A1753EFA20DA5FAD004A66E9 /* UIImageView+HAdd.m */,
+				A1753EFE20DA5FAE004A66E9 /* UILabel+HAdd.h */,
+				A1753EF420DA5FAC004A66E9 /* UILabel+HAdd.m */,
+				A1753F0820DA5FAF004A66E9 /* UINavigationController+HA.h */,
+				A1753EF620DA5FAD004A66E9 /* UINavigationController+HA.m */,
+				A1753EF920DA5FAD004A66E9 /* UITableView+HAdd.h */,
+				A1753F0020DA5FAE004A66E9 /* UITableView+HAdd.m */,
+				A1753F0220DA5FAE004A66E9 /* UITextField+HAdd.h */,
+				A1753F0920DA5FAF004A66E9 /* UITextField+HAdd.m */,
+				A1753EF120DA5FAC004A66E9 /* UIView+HAdd.h */,
+				A1753EF220DA5FAC004A66E9 /* UIView+HAdd.m */,
+				A1753EEC20DA5FAB004A66E9 /* UIViewController+HAdd.h */,
+				A1753EFF20DA5FAE004A66E9 /* UIViewController+HAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A1753ED320DA5BE0004A66E9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F1D20DA657A004A66E9 /* DQBaseVC.h */,
+				A1753F1E20DA657A004A66E9 /* DQBaseVC.m */,
+				A1753F2020DA659D004A66E9 /* DQBaseNaviVC.h */,
+				A1753F2120DA659D004A66E9 /* DQBaseNaviVC.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		A1753EDD20DA5DA6004A66E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1753EDE20DA5DA6004A66E9 /* TodayViewController.h */,
+				A1753EDF20DA5DA6004A66E9 /* TodayViewController.m */,
+				A1753EE120DA5DA6004A66E9 /* MainInterface.storyboard */,
+				A1753EE420DA5DA6004A66E9 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A1753F1920DA6475004A66E9 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F1A20DA649B004A66E9 /* DQTabBarVC.h */,
+				A1753F1B20DA649B004A66E9 /* DQTabBarVC.m */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		A1753F2320DA65D3004A66E9 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2520DA65EA004A66E9 /* VIew */,
+				A1753F2420DA65E5004A66E9 /* VC */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A1753F2420DA65E5004A66E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2620DA660A004A66E9 /* DQHomeContainerVC.h */,
+				A1753F2720DA660A004A66E9 /* DQHomeContainerVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A1753F2520DA65EA004A66E9 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		A1753F2920DA681E004A66E9 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2A20DA6831004A66E9 /* VC */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		A1753F2A20DA6831004A66E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F3A20DA68A8004A66E9 /* DQMatchContainerVC.h */,
+				A1753F3B20DA68A8004A66E9 /* DQMatchContainerVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A1753F2B20DA6835004A66E9 /* CenterLove */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2C20DA683F004A66E9 /* VC */,
+			);
+			path = CenterLove;
+			sourceTree = "<group>";
+		};
+		A1753F2C20DA683F004A66E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F3720DA6896004A66E9 /* DQCenterLoveContainerVC.h */,
+				A1753F3820DA6896004A66E9 /* DQCenterLoveContainerVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A1753F2D20DA6843004A66E9 /* BBS */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F2E20DA684A004A66E9 /* VC */,
+			);
+			path = BBS;
+			sourceTree = "<group>";
+		};
+		A1753F2E20DA684A004A66E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F3420DA6886004A66E9 /* DQBBSContainerVC.h */,
+				A1753F3520DA6886004A66E9 /* DQBBSContainerVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A1753F2F20DA684E004A66E9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F3020DA6855004A66E9 /* VC */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A1753F3020DA6855004A66E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A1753F3120DA6877004A66E9 /* DQDataContainerVC.h */,
+				A1753F3220DA6877004A66E9 /* DQDataContainerVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BEECDF47038CF008E49102E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				440273FEDBF284B2351ACFE0 /* Pods_MyDqd.framework */,
+				A1753EDB20DA5DA6004A66E9 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13D855783845CFD71CCC544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F698BCD23909DC4CE1250704 /* Pods-MyDqd.debug.xcconfig */,
+				3140C8D435C069E245E483C2 /* Pods-MyDqd.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,18 +416,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1753ECB20DA5798004A66E9 /* Build configuration list for PBXNativeTarget "MyDqd" */;
 			buildPhases = (
+				05F4069E64C456AF86108DB4 /* [CP] Check Pods Manifest.lock */,
 				A1753EAE20DA5798004A66E9 /* Sources */,
 				A1753EAF20DA5798004A66E9 /* Frameworks */,
 				A1753EB020DA5798004A66E9 /* Resources */,
+				52E0449A8A1BA98C9C4B3560 /* [CP] Embed Pods Frameworks */,
+				EB54165F7A4DBA831CDAE99D /* [CP] Copy Pods Resources */,
+				A1753EEB20DA5DA6004A66E9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A1753EE620DA5DA6004A66E9 /* PBXTargetDependency */,
 			);
 			name = MyDqd;
 			productName = MyDqd;
 			productReference = A1753EB220DA5798004A66E9 /* MyDqd.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A1753ED920DA5DA6004A66E9 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1753EE820DA5DA6004A66E9 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				A1753ED620DA5DA6004A66E9 /* Sources */,
+				A1753ED720DA5DA6004A66E9 /* Frameworks */,
+				A1753ED820DA5DA6004A66E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = A1753EDA20DA5DA6004A66E9 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,10 +457,15 @@
 		A1753EAA20DA5798004A66E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DQ;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = hjy;
 				TargetAttributes = {
 					A1753EB120DA5798004A66E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A1753ED920DA5DA6004A66E9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -123,6 +485,7 @@
 			projectRoot = "";
 			targets = (
 				A1753EB120DA5798004A66E9 /* MyDqd */,
+				A1753ED920DA5DA6004A66E9 /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -138,21 +501,142 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1753ED820DA5DA6004A66E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1753EE320DA5DA6004A66E9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F4069E64C456AF86108DB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDqd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E0449A8A1BA98C9C4B3560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyDqd/Pods-MyDqd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LKDBHelper/LKDBHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKDBHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDqd/Pods-MyDqd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB54165F7A4DBA831CDAE99D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDqd/Pods-MyDqd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1753EAE20DA5798004A66E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1753F0C20DA5FAF004A66E9 /* NSObject+HAdd.m in Sources */,
 				A1753EC020DA5798004A66E9 /* MyDqd.xcdatamodeld in Sources */,
+				A1753F1520DA5FAF004A66E9 /* UIColor+HAdd.m in Sources */,
+				A1753F0F20DA5FAF004A66E9 /* UIImage+HAdd.m in Sources */,
+				A1753F1720DA5FAF004A66E9 /* NSString+HAdd.m in Sources */,
+				A1753F3620DA6886004A66E9 /* DQBBSContainerVC.m in Sources */,
+				A1753F1020DA5FAF004A66E9 /* UIImageView+HAdd.m in Sources */,
+				A1753F2820DA660A004A66E9 /* DQHomeContainerVC.m in Sources */,
+				A1753F3920DA6896004A66E9 /* DQCenterLoveContainerVC.m in Sources */,
+				A1753F0A20DA5FAF004A66E9 /* MBProgressHUD+HAdd.m in Sources */,
+				A1753F1120DA5FAF004A66E9 /* UIAlertController+HAdd.m in Sources */,
+				A1753F0D20DA5FAF004A66E9 /* UILabel+HAdd.m in Sources */,
 				A1753EBA20DA5798004A66E9 /* ViewController.m in Sources */,
+				A1753F1220DA5FAF004A66E9 /* UIButton+Hadd.m in Sources */,
+				A1753F0B20DA5FAF004A66E9 /* UIView+HAdd.m in Sources */,
 				A1753EC820DA5798004A66E9 /* main.m in Sources */,
+				A1753F1C20DA649B004A66E9 /* DQTabBarVC.m in Sources */,
+				A1753F1F20DA657A004A66E9 /* DQBaseVC.m in Sources */,
 				A1753EB720DA5798004A66E9 /* AppDelegate.m in Sources */,
+				A1753F3320DA6877004A66E9 /* DQDataContainerVC.m in Sources */,
+				A1753F0E20DA5FAF004A66E9 /* UINavigationController+HA.m in Sources */,
+				A1753F1420DA5FAF004A66E9 /* UITableView+HAdd.m in Sources */,
+				A1753F2220DA659D004A66E9 /* DQBaseNaviVC.m in Sources */,
+				A1753F1320DA5FAF004A66E9 /* UIViewController+HAdd.m in Sources */,
+				A1753F3C20DA68A8004A66E9 /* DQMatchContainerVC.m in Sources */,
+				A1753F1820DA5FAF004A66E9 /* UITextField+HAdd.m in Sources */,
+				A1753F1620DA5FAF004A66E9 /* NSDate+HAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1753ED620DA5DA6004A66E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1753EE020DA5DA6004A66E9 /* TodayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1753EE620DA5DA6004A66E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1753ED920DA5DA6004A66E9 /* Extension */;
+			targetProxy = A1753EE520DA5DA6004A66E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A1753EBB20DA5798004A66E9 /* Main.storyboard */ = {
@@ -169,6 +653,14 @@
 				A1753EC420DA5798004A66E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1753EE120DA5DA6004A66E9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1753EE220DA5DA6004A66E9 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,10 +772,12 @@
 		};
 		A1753ECC20DA5798004A66E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698BCD23909DC4CE1250704 /* Pods-MyDqd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5CST6BRTL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyDqd/Prefix.pch";
 				INFOPLIST_FILE = MyDqd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.MyDqd;
@@ -294,14 +788,44 @@
 		};
 		A1753ECD20DA5798004A66E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3140C8D435C069E245E483C2 /* Pods-MyDqd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W5CST6BRTL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyDqd/Prefix.pch";
 				INFOPLIST_FILE = MyDqd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.MyDqd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1753EE920DA5DA6004A66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CST6BRTL;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.MyDqd.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1753EEA20DA5DA6004A66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CST6BRTL;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.MyDqd.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -323,6 +847,15 @@
 			buildConfigurations = (
 				A1753ECC20DA5798004A66E9 /* Debug */,
 				A1753ECD20DA5798004A66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1753EE820DA5DA6004A66E9 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1753EE920DA5DA6004A66E9 /* Debug */,
+				A1753EEA20DA5DA6004A66E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
